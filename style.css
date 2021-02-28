@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+
 .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7{
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
 
 body{
+  font-family: 'Montserrat', sans-serif;
   background-color: #f7f9fc;
 }
 
@@ -20,6 +23,10 @@ h1{
 .phone{
   margin-top: 38px;
   font-size: 18px;
+}
+.phone a{
+  color: white;
+  text-decoration: none;
 }
 
 .logo{
@@ -180,6 +187,9 @@ footer{
   .item .type{
     font-size: 18px;
   }
+  .item .type, .item .select{
+    opacity: 1;
+  }
   .select small{
     top: 8px;
   }
@@ -267,7 +277,7 @@ footer{
   .footer-block-left p{
     width: 100%;
     font-size: 12px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .left-block-rules{
     width: 100%;
@@ -284,5 +294,6 @@ footer{
     bottom: 0;
     left: 0;
     text-align: center;
+    font-size: 14px;
   }
 }
