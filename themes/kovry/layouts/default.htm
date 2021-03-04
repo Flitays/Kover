@@ -1,0 +1,39 @@
+description = "Интернет магазин лучших ковров"
+==
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ '/assets/images/icons/favicon.svg' | theme }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | theme }}">
+    <title>{{ this.page.title }}</title>
+    {% styles %}
+</head>
+
+<body>
+
+
+
+    {% partial 'site/header' %}
+
+    <div class="logo"></div>
+    <div class="container">
+        {% page %}
+    </div>
+
+    {% partial 'site/footer' %}
+
+
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/script.js' | theme }}" charset="utf-8"></script>
+
+    {% framework extras %}
+    {% scripts %}
+</body>
+
+</html>

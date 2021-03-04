@@ -1,0 +1,73 @@
+1614888128a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:952:"description = "Интернет магазин лучших ковров"
+==
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ '/assets/images/icons/favicon.svg' | theme }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | theme }}">
+    <title>{{ this.page.title }}</title>
+    {% styles %}
+</head>
+
+<body>
+
+
+
+    {% partial 'site/header' %}
+
+    <div class="logo"></div>
+    <div class="container">
+        {% page %}
+    </div>
+
+    {% partial 'site/footer' %}
+
+
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/script.js' | theme }}" charset="utf-8"></script>
+
+    {% framework extras %}
+    {% scripts %}
+</body>
+
+</html>";s:5:"mtime";i:1614795253;s:6:"markup";s:869:"<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ '/assets/images/icons/favicon.svg' | theme }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | theme }}">
+    <title>{{ this.page.title }}</title>
+    {% styles %}
+</head>
+
+<body>
+
+
+
+    {% partial 'site/header' %}
+
+    <div class="logo"></div>
+    <div class="container">
+        {% page %}
+    </div>
+
+    {% partial 'site/footer' %}
+
+
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/script.js' | theme }}" charset="utf-8"></script>
+
+    {% framework extras %}
+    {% scripts %}
+</body>
+
+</html>";s:4:"code";N;s:11:"description";s:57:"Интернет магазин лучших ковров";}}

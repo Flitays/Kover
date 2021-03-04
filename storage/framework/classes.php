@@ -1,0 +1,15 @@
+<?php return array (
+  'october\\demo\\Plugin' => 'plugins\\october\\demo\\Plugin.php',
+  'backend\\Controllers\\index' => 'modules\\backend\\controllers\\index.php',
+  'backend\\Controllers\\auth' => 'modules\\backend\\controllers\\auth.php',
+  'cms\\Controllers\\index' => 'modules\\cms\\controllers\\index.php',
+  'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
+  'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
+  'backend\\Controllers\\preferences' => 'modules\\backend\\controllers\\preferences.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
+  'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
+  'samuell\\contenteditor\\Plugin' => 'plugins\\samuell\\contenteditor\\Plugin.php',
+  'Samuell\\ContentEditor\\Components\\ContentEditor' => 'plugins\\samuell\\contenteditor\\components\\ContentEditor.php',
+  'Samuell\\ContentEditor\\Models\\Settings' => 'plugins\\samuell\\contenteditor\\models\\Settings.php',
+  'Samuell\\ContentEditor\\Http\\Controllers\\AdditionalStylesController' => 'plugins\\samuell\\contenteditor\\http\\controllers\\AdditionalStylesController.php',
+);

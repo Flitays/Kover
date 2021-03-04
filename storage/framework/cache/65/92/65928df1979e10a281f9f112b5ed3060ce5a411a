@@ -1,0 +1,310 @@
+1614888128a:1:{s:8:"home.htm";a:10:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:9882:"title = "Интернет магазин ковров"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[contenteditor]
+==
+<div class="text-center pt-4 logo-tag">
+  {% component 'contenteditor' file="title/title.htm" fixture="h1" class="mt-5 mb-3 text-white" %}
+
+  {% component 'contenteditor' file="title/subtitle.htm" fixture="span" class="text-white" %}
+  <button type="button" class="btn btn-warning font-weight-bold mt-5 mb-5"><a class="text-white" target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?tt=50b5c43057">В КАТАЛОГ</a></button>
+</div>
+
+<main class="bg-white text-md-center pt-5 mt-3 pb-4 text-center">
+  {% component 'contenteditor' file="main/title.htm" fixture="h2" class="title_main"%}
+
+  {% component 'contenteditor' file="main/subtitle.htm" fixture="span" class="after-header" %}
+
+  <hr>
+
+  <div class="row">
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7804&tt=50b5c43057"><img src="{{ '/assets/images/card-item1.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_1.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select text-center">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7804&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7806&tt=50b5c43057"><img src="{{ '/assets/images/card-item2.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_2.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7806&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7807&tt=50b5c43057"><img src="{{ '/assets/images/card-item3.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_3.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7807&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23001&tt=50b5c43057"><img src="{{ '/assets/images/card-item4.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_4.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23001&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23006&tt=50b5c43057"><img src="{{ '/assets/images/card-item1.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_5.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23006&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"><img src="{{ '/assets/images/card-item2.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_6.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"><img src="{{ '/assets/images/card-item3.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_7.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23014&tt=50b5c43057"><img src="{{ '/assets/images/card-item4.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_8.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23014&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23010&tt=50b5c43057"><img src="{{ '/assets/images/card-item1.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_9.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23010&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23007&tt=50b5c43057"><img src="{{ '/assets/images/card-item2.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_10.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23007&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23019&tt=50b5c43057"><img src="{{ '/assets/images/card-item3.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_11.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23019&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23019&tt=50b5c43057"><img src="{{ '/assets/images/card-item4.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_12.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23015&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="text-center">
+  <button type="button" class="show-all btn btn-warning text-white font-weight-bold mt-5 mb-5"><a class="text-white" target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?tt=50b5c43057">СМОТРЕТЬ ВСЕ</a></button>
+</div>";s:5:"mtime";i:1614887441;s:6:"markup";s:9757:"<div class="text-center pt-4 logo-tag">
+  {% component 'contenteditor' file="title/title.htm" fixture="h1" class="mt-5 mb-3 text-white" %}
+
+  {% component 'contenteditor' file="title/subtitle.htm" fixture="span" class="text-white" %}
+  <button type="button" class="btn btn-warning font-weight-bold mt-5 mb-5"><a class="text-white" target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?tt=50b5c43057">В КАТАЛОГ</a></button>
+</div>
+
+<main class="bg-white text-md-center pt-5 mt-3 pb-4 text-center">
+  {% component 'contenteditor' file="main/title.htm" fixture="h2" class="title_main"%}
+
+  {% component 'contenteditor' file="main/subtitle.htm" fixture="span" class="after-header" %}
+
+  <hr>
+
+  <div class="row">
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7804&tt=50b5c43057"><img src="{{ '/assets/images/card-item1.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_1.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select text-center">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7804&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7806&tt=50b5c43057"><img src="{{ '/assets/images/card-item2.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_2.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7806&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7807&tt=50b5c43057"><img src="{{ '/assets/images/card-item3.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_3.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[17][]=7807&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23001&tt=50b5c43057"><img src="{{ '/assets/images/card-item4.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_4.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23001&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23006&tt=50b5c43057"><img src="{{ '/assets/images/card-item1.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_5.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23006&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"><img src="{{ '/assets/images/card-item2.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_6.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"><img src="{{ '/assets/images/card-item3.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_7.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23021&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23014&tt=50b5c43057"><img src="{{ '/assets/images/card-item4.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_8.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23014&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23010&tt=50b5c43057"><img src="{{ '/assets/images/card-item1.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_9.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23010&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23007&tt=50b5c43057"><img src="{{ '/assets/images/card-item2.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_10.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23007&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23019&tt=50b5c43057"><img src="{{ '/assets/images/card-item3.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_11.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23019&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+
+    <div class="item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-left text-md-center text-lg-left">
+      <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23019&tt=50b5c43057"><img src="{{ '/assets/images/card-item4.png' | theme }}"></a><br>
+      <small class="type">
+        {% component 'contenteditor' file="cards/card_12.htm" fixture="span" class="type" %}
+      </small><br>
+      <div class="d-flex select">
+        <small class="sircle"></small>
+        <a target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?&fSt=filter&prop[22][]=23015&tt=50b5c43057"></strong><strong>Выбрать</strong></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="text-center">
+  <button type="button" class="show-all btn btn-warning text-white font-weight-bold mt-5 mb-5"><a class="text-white" target="_blank" href="https://xn--24-6kcaozhd0abqe.xn--p1ai/category/index.html?tt=50b5c43057">СМОТРЕТЬ ВСЕ</a></button>
+</div>";s:4:"code";N;s:5:"title";s:44:"Интернет магазин ковров";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:13:"contenteditor";a:0:{}}}
